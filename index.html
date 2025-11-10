@@ -18,21 +18,18 @@
         <h1>Marcos Maia</h1>
         <h2>aluno SENAI</h2>
         <p>Bem vindo! a minha página</p>
-
-        <div class="links">
-            <a href="#" class="btn">Instagram</a>
-            <a href="#" class="btn">Tiktok</a>
-            <button class="btn" onclick="mostrarmensagem()">clique aqui</button>
-            <p id="mensagens"></p>
-        </div>
+<div class="links">
+      <a href="facebook.com" class="btn">Instagram</a>
+      <a href="#" class="btn">TikTok</a>
+      <button class="btn" onclick="mostrarMensagem()">Clique aqui</button>
+      <p id="mensagem"></p>
+      <script>
+        function mostrarMensagem() {
+          document.getElementById("mensagem").innerText = "Olá, você clicou no botão!";
+        }
+      </script>
     </div>
-</body>
-<button onclick="mostrarmensagem()">clique aqui</button>
-<p id="mensagens"></p>
+  </div>
 
-<script>
-    function mostrarMensagem() {
-        document.getElementByld("mensagem").innerText = "Olá, você clicou no botão!";
-    } 
-</script>
+</body>
 </html>

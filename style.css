@@ -1,30 +1,74 @@
 body {
     margin: 0;
+    /* zera margem do corpo do site  */
     padding: 0;
+    /* zera espaçamento interno  */
     box-sizing: border-box;
-    background-color: #2d2a52;
+    /* altera a cor de fundo do site  */
+    background-color: #4c3d7a;
+    /* altera a fonte do texto  */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* layount site  */
     display: flex;
+   /* deixa os elementos do site no centro  */
     justify-content: center;
+    /* alinhamento Y -vestical */
     align-items: center;
+    /* utilizar altura 100%  */
     height: 100vh;
 }
 
 .profile {
+    /* SLA */
     padding: 5px;
-    color: white;
+    /* cor da fonte */
+    color: rgb(255, 255, 255);
+    /* alinhamento dos itens */
     align-items: center;
 }
-
 .profile img {
+    /* largura da foto */
     width: 120px;
+    /* altura da foto */
     height: 120px;
+        /* borda da foto */
     border-radius: 50%;
+/* foto no recorte */
     object-fit: cover;
+    /* espaçamento entre a foto e os botões */
     margin-bottom: 15px;
 }
-
 .profile h1 {
+    /* largura dos objetos */
     font-size: 24px;
+    /* nada */
     margin-bottom: 5px;
+}
+.profile h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Botões de link */
+.links .btn {
+    display: block;
+    width: 100%;
+    background-color: white;
+    color: #2d2a52;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: background 0.3s;
+    text-align: center;
+}
+
+.links .btn:hover {
+    background-color: azure;
 }
